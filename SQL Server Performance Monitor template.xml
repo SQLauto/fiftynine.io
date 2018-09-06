@@ -1,0 +1,68 @@
+<DataCollectorSet>
+<Name>SQL Server Performance Full</Name>
+<SubdirectoryFormat>3</SubdirectoryFormat>
+<SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
+<PerformanceCounterDataCollector>
+    <Name>SQL Server Performance Full</Name>
+    <SampleInterval>15</SampleInterval>
+    <Counter>\Memory\Available Mbytes</Counter>
+    <Counter>\Memory\Free System Page Table Entries</Counter>
+    <Counter>\Memory\Pages/sec</Counter>
+    <Counter>\Network\Bytes Received/sec</Counter>
+    <Counter>\Network\Bytes Sent/sec</Counter>
+    <Counter>\Network\Bytes Total/sec</Counter>
+    <Counter>\Network\Current Bandwidth</Counter>
+    <Counter>\Physical Disk / Logical Disk\% Idle Time</Counter>
+    <Counter>\Physical Disk / Logical Disk\Avg. Disk Queue Length</Counter>
+    <Counter>\Physical Disk / Logical Disk\Avg. Disk sec/Read</Counter>
+    <Counter>\Physical Disk / Logical Disk\Avg. Disk sec/Transfer</Counter>
+    <Counter>\Physical Disk / Logical Disk\Avg. Disk sec/Write</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk Bytes/sec</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk Read Bytes/sec</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk reads/sec</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk Transfers/sec</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk Write Bytes/sec</Counter>
+    <Counter>\Physical Disk / Logical Disk\Disk writes/sec</Counter>
+    <Counter>\Process\% Privileged Time</Counter>
+    <Counter>\Process\% Processor Time</Counter>
+    <Counter>\Process\Page Faults/sec</Counter>
+    <Counter>\Processor\% Privileged Time</Counter>
+    <Counter>\Processor\% Processor Time</Counter>
+    <Counter>\Processor\% User Time</Counter>
+    <Counter>\SQL Server:Buffer Manager\Buffer Cache Hit Ratio</Counter>
+    <Counter>\SQL Server:Buffer Manager\Checkpoint pages/sec</Counter>
+    <Counter>\SQL Server:Buffer Manager\Free Pages</Counter>
+    <Counter>\SQL Server:Buffer Manager\Lazy Writes/sec</Counter>
+    <Counter>\SQL Server:Buffer Manager\Page Life Expectancy</Counter>
+    <Counter>\SQL Server:Buffer Manager\Prcedure Cache Pages</Counter>
+    <Counter>\SQL Server:Wait Statistics\Lock waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Log write waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Network IO waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Non-Page latch waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Average wait time (ms)</Counter>
+    <Counter>\SQL Server:Wait Statistics\Page IO latch waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Page latch waits</Counter>
+    <Counter>\SQL Server:Wait Statistics\Wait for the worker</Counter>
+    <Counter>\SQL:ServerMemory Manager\Memory Grants Pending</Counter>
+    <Counter>\SQL:ServerMemory Manager\Target Server Memory</Counter>
+    <Counter>\SQL:ServerMemory Manager\Total Server Memory</Counter>
+    <Counter>\SQLServer:Latches\Average Latch Wait Time (ms)</Counter>
+    <Counter>\SQLServer:Latches\Latch Waits/sec</Counter>
+    <Counter>\SQLServer:Latches\Total Latch Wait Time (ms)</Counter>
+    <Counter>\SQLServer:Locks\Lock Timeouts (timeout > 0)/sec</Counter>
+    <Counter>\SQLServer:Locks\Lock Wait Time (ms)</Counter>
+    <Counter>\SQLServer:Locks\Lock Waits/sec</Counter>
+    <Counter>\SQLServer:Locks\Number of Deadlocks/sec</Counter>
+    <Counter>\SQLServer:General Statistics\User Connections</Counter>
+    <Counter>\SQLServer:SQL Statistics\Batch Requests/sec</Counter>
+    <Counter>\SQLServer:SQL Statistics\SQL Compilations/sec</Counter>
+    <Counter>\SQLServer:SQL Statistics\SQL Recompilations/sec</Counter>
+    <Counter>\TCPv4\Connection Failures</Counter>
+    <Counter>\VM\% Processor Time</Counter>
+    <Counter>\VM\Effective VM Speed in MHz</Counter>
+    <Counter>\VM\Host processor speed in MHz</Counter>
+    <Counter>\VM\Memory Active in MB</Counter>
+    <Counter>\VM\Memory Ballooned in MB</Counter>
+    <Counter>\VM\Memory Swapped in MB</Counter>
+</PerformanceCounterDataCollector>
+</DataCollectorSet>
