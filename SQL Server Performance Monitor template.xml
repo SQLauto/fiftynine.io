@@ -3,7 +3,7 @@
 <SubdirectoryFormat>3</SubdirectoryFormat>
 <SubdirectoryFormatPattern>yyyyMMdd\-NNNNNN</SubdirectoryFormatPattern>
 <PerformanceCounterDataCollector>
-    <Name>SQL Server Performance Full</Name>
+    <Name>SQL Server Performance Template</Name>
     <SampleInterval>15</SampleInterval>
     <Counter>\Memory\Available Mbytes</Counter>
     <Counter>\Memory\Free System Page Table Entries</Counter>
